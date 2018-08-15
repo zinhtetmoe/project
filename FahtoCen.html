@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Ch3_eg1</title>
+		<meta name="author" content="coe" />
+		<!-- Date: 2016-05-19 -->
+	</head>
+	<body>
+		<script type="text/javascript">
+			var degFahren=Number(prompt("Enter the degrees Fahrenheit",32));
+			var degCent;
+			degCent=5/9*(degFahren-32);
+			document.write(degFahren+"\xB0 Fahrenheit is"+degCent+"\xB0 centigrade<BR>");
+			if(degCent<=0)
+			{
+				document.write("That's below the freezing point of water");
+			}
+			if(degCent==100)
+				document.write("That's the boiling point of water");
+		</script>
+	</body>
+</html>
+
